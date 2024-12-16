@@ -2,41 +2,53 @@
   {
     "id": 1,
     "name": "לומדה גנרית",
-    "description": "תיאור של לומדה גנרית",
     "link": "https://example.com",
+    "year": "2024",
+    "content": "תיאור של לומדה גנרית",
     "image": "https://via.placeholder.com/150"
   },
   {
     "id": 2,
     "name": "לומדה מותאמת",
-    "description": "תיאור של לומדה מותאמת",
+    "content": "תיאור של לומדה מותאמת",
     "link": "https://example.com",
+    "year": "2024",
     "image": "https://via.placeholder.com/150"
   },
   {
     "link": "https://example.com/2",
     "name": "קלף שני",
     "year": "2024",
+    "content": "תיאור של לומדה גנרית",
     "image": "https://via.placeholder.com/150"
+    
   },
   {
     "link": "https://example.com/3",
     "name": "קלף שלישי",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "year": "2024",
+    "content": "תיאור של לומדה גנרית"
   },
   {
     "link": "https://example.com/3",
-    "name": "קלף רביעי",
+    "name": "קלף רביעי", 
+    "year": "2024",
+    "content": "תיאור של לומדה גנרית",
     "image": "https://via.placeholder.com/150"
   },
   {
     "link": "https://example.com/3",
     "name": "קלף חמישי",
+    "year": "2024",
+    "content": "תיאור של לומדה גנרית",
     "image": "https://via.placeholder.com/150"
   },
   {
     "link": "https://example.com/3",
     "name": "קלף שישי",
+    "year": "2024",
+    "content": "תיאור של לומדה גנרית",
     "image": "https://via.placeholder.com/150"
   }
 ]
