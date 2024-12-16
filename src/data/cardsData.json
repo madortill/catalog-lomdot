@@ -1,0 +1,33 @@
+[
+    {
+      "link": "https://example.com/1",
+      "name": "קלף ראשון",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "link": "https://example.com/2",
+      "name": "קלף שני",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "link": "https://example.com/3",
+      "name": "קלף שלישי",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "link": "https://example.com/3",
+      "name": "קלף רביעי",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "link": "https://example.com/3",
+      "name": "קלף חמישי",
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "link": "https://example.com/3",
+      "name": "קלף שישי",
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+  

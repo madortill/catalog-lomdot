@@ -1,0 +1,28 @@
+html {
+  Font-size: calc(10px + 0.5vw);
+  /* overflow-y: scroll; */
+}
+body {
+  margin: 0;
+  font-family: 'Heebo', sans-serif;
+  background-color: rgb(255, 220, 209);
+  direction: rtl;
+  overflow: hidden;
+}
+
+header { 
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

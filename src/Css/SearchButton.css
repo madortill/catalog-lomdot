@@ -1,0 +1,31 @@
+.search-icon {
+    width: 2rem;  /* גודל התמונה */
+    height: 2rem; /* גובה התמונה */
+  }
+
+  .search-button {
+    position: absolute;
+    right: 245px; 
+    top: 53%;
+    transform: translateY(-50%); 
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+
+  .search-container {
+    position: relative;
+    width: 250px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 0.5rem 2rem 0.5rem 1rem; /* Padding שמותאם לשדה ה-input ולכפתור */
+    border-radius: 30px;
+    font-size: 1.5rem;
+    border: 1px solid #ccc;
+    /* border: none; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
