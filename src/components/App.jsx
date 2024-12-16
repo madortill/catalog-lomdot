@@ -39,7 +39,7 @@ export default function App() {
           year={selectedCard.year}
           link={selectedCard.link}
           content={selectedCard.content}
-          // onBack={handleBackToAllCards} // כפתור חזרה למסך כל הקלפים
+          onBack={handleBackToAllCards} // כפתור חזרה למסך כל הקלפים
         />
       ) : (
         // אם לא נבחר קלף, מציגים את אזור החיפוש ואת רשימת הקלפים

@@ -1,7 +1,7 @@
 import React from 'react';
 import "../Css/InfoPage.css";
 
-export default function InformationPage({ image, name, year, link, content }) {
+export default function InformationPage({ image, name, year, link, content, onBack }) {
     return (
         <div className="infp-page">
           <div className="info-card">
@@ -13,9 +13,9 @@ export default function InformationPage({ image, name, year, link, content }) {
               <a href={link} target="_blank" rel="noopener noreferrer" className="info-link">
                 לעבור ללומדה
               </a>
-              {/* <button onClick={onBack} className="back-button">
+              <button onClick={onBack} className="back-button">
                 חזרה לכל הקלפים
-              </button> */}
+              </button>
             </div>
           </div>
         </div>
