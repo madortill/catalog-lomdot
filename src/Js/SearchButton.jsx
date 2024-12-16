@@ -2,15 +2,15 @@ import React, { useState } from "react";
 import "../Css/SearchButton.css";
 import searchIcon from "../searchBtn.png"; 
 
-const About = () => {
-  const [searchValue, setSearchValue] = useState(""); // useState חייב להיות בתוך רכיב פונקציונלי
+const SearchButton = ({searchValue, setSearchValue}) => {
+  const [searchValueInfo, setSearchValueInfo] = useState("");// useState חייב להיות בתוך רכיב פונקציונלי
 
   const handleInputChange = (event) => {
     setSearchValue(event.target.value); // מעדכן את ערך החיפוש
   };
 
   const handleSearch = () => {
-    console.log("ערך החיפוש:", searchValue); // מדפיס את הערך לקונסול
+    console.log("ערך החיפוש:", searchValueInfo); // מדפיס את הערך לקונסול
   };
 
   return (
@@ -31,4 +31,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default SearchButton;

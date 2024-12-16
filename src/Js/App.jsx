@@ -7,15 +7,16 @@ import AllCards from "./AllCards.jsx";
 // import CustomCarousel from "../Js/CustomCarousel.js";
 
 export default function App() {
+  const [searchValue, setSearchValue] = useState(""); 
   return (
     <div>
       <header className="app-header">
         <h1>קטלוג לומדות</h1>
         <About />
       </header>
-      <SearchButton />
+      <SearchButton searchValue={searchValue} setSearchValue={setSearchValue} />
       <DropDown />
-      <AllCards />
+      <AllCards  searchValue={searchValue}/>
     </div>
   );
 }

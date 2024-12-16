@@ -1,33 +1,41 @@
 [
-    {
-      "link": "https://example.com/1",
-      "name": "קלף ראשון",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "link": "https://example.com/2",
-      "name": "קלף שני",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "link": "https://example.com/3",
-      "name": "קלף שלישי",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "link": "https://example.com/3",
-      "name": "קלף רביעי",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "link": "https://example.com/3",
-      "name": "קלף חמישי",
-      "image": "https://via.placeholder.com/150"
-    },
-    {
-      "link": "https://example.com/3",
-      "name": "קלף שישי",
-      "image": "https://via.placeholder.com/150"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "name": "לומדה גנרית",
+    "description": "תיאור של לומדה גנרית",
+    "link": "https://example.com",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "name": "לומדה מותאמת",
+    "description": "תיאור של לומדה מותאמת",
+    "link": "https://example.com",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "link": "https://example.com/2",
+    "name": "קלף שני",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "link": "https://example.com/3",
+    "name": "קלף שלישי",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "link": "https://example.com/3",
+    "name": "קלף רביעי",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "link": "https://example.com/3",
+    "name": "קלף חמישי",
+    "image": "https://via.placeholder.com/150"
+  },
+  {
+    "link": "https://example.com/3",
+    "name": "קלף שישי",
+    "image": "https://via.placeholder.com/150"
+  }
+]
