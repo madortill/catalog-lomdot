@@ -1,0 +1,62 @@
+.infp-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 9rem;
+  position: relative;
+  bottom: 10rem;
+}
+
+@media screen and (max-width: 768px) {
+  body .infp-page {
+    bottom: 4rem;
+  }
+}
+
+  .info-card {
+    max-width: 500px;
+    width: 16rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .info-details {
+    padding: 20px;
+  }
+  
+  .info-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .info-year {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .info-content {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+  
+  .info-link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .info-link:hover {
+    text-decoration: underline;
+  }
+  

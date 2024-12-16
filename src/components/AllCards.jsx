@@ -3,13 +3,13 @@ import "../Css/AllCards.css";
 import Card from "./Card.jsx";
 import cardsData from "../data/cardsData.json";
 
-const AllCards = ({ link, name, image, searchValue }) => {
+const AllCards = ({ searchValue, onCardClick  }) => {
 
   const filteredCards = cardsData.filter((card) =>
     card.name.includes(searchValue)
   );
 
-    return (
+  return (
     <div className="AllCards">
       <div className="cards-container">
         {filteredCards.length > 0 ? (
@@ -19,10 +19,11 @@ const AllCards = ({ link, name, image, searchValue }) => {
               link={card.link}
               name={card.name}
               image={card.image}
+              onClick={() => onCardClick(card)} // שולח את המידע של הקלף שנלחץ
             />
           ))
         ) : (
-          <p className = "none-card">לא נמצאו קלפים תואמים.</p>
+          <p className="none-card">לא נמצאו קלפים תואמים.</p>
         )}
       </div>
     </div>
