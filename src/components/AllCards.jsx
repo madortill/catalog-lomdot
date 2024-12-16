@@ -22,7 +22,7 @@ const AllCards = ({ link, name, image, searchValue }) => {
             />
           ))
         ) : (
-          <p >לא נמצאו קלפים תואמים.</p>
+          <p className = "none-card">לא נמצאו קלפים תואמים.</p>
         )}
       </div>
     </div>

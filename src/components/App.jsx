@@ -14,8 +14,10 @@ export default function App() {
         <h1>קטלוג לומדות</h1>
         <About />
       </header>
-      <SearchButton searchValue={searchValue} setSearchValue={setSearchValue} />
-      <DropDown />
+      <div>
+        <SearchButton searchValue={searchValue} setSearchValue={setSearchValue} />
+        <DropDown />
+      </div>
       <AllCards  searchValue={searchValue}/>
     </div>
   );
