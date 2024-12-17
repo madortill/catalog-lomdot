@@ -6,13 +6,14 @@ body {
   margin: 0;
   font-family: 'Heebo', sans-serif;
   background-color: #fadde1;
+  background-image:  url('../assets/background-web.svg');;
   direction: rtl;
   overflow: hidden;
   background-size: cover; /* התאמת התמונה לכל המסך */
   background-position: center; /* מיקוד במרכז */
   background-repeat: no-repeat; /* ללא חזרה */
   height: 100%;
-  width: 100%
+  width: 100%;
 }
 
 header { 
@@ -25,6 +26,6 @@ header {
 
 @media screen and (max-width: 768px) {
   body {
-    background-image: url('../assets/background-pink.svg');
+    background-image: url('../assets/background-phone.svg');
   }
 }
