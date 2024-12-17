@@ -4,12 +4,12 @@
   align-items: center;
   padding: 9rem;
   position: relative;
-  bottom: 10rem;
+  bottom: 13rem;
 }
 
 @media screen and (max-width: 768px) {
   body .infp-page {
-    bottom: 4rem;
+    bottom: 8rem;
   }
 }
 
