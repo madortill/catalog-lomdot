@@ -9,9 +9,9 @@ body {
   background-image:  url('../assets/background-web.svg');;
   direction: rtl;
   overflow: hidden;
-  background-size: cover; /* התאמת התמונה לכל המסך */
-  background-position: center; /* מיקוד במרכז */
-  background-repeat: no-repeat; /* ללא חזרה */
+  background-size: cover; 
+  /* background-position: center; מיקוד במרכז */
+  /* background-repeat: no-repeat; ללא חזרה */
   height: 100%;
   width: 100%;
 }

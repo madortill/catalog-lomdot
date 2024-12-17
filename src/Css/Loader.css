@@ -1,0 +1,33 @@
+.Loader-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fadde1;
+    animation: fadeOut 5s ease-in-out forwards; /* מפעיל את האנימציה */
+  }
+  
+  .gif-load {
+    width: 30rem;
+    height: 30rem;
+    filter: sepia(1) saturate(1000%) hue-rotate(-50deg) brightness(0.7);
+}
+
+
+  .getting-started {
+    font-size: 2rem;
+    color: rgb(243, 161, 161);
+    font-weight: 700;
+  }
+
+  @keyframes fadeOut {
+    0% {
+      opacity: 1; /* מתחיל אטום */
+    }
+    100% {
+      opacity: 0; /* נעלם */
+      visibility: hidden; /* מסתיר את האלמנט */
+    }
+  }
+  
