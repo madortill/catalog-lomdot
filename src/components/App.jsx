@@ -14,10 +14,9 @@ export default function App() {
   const [showLoader, setShowLoader] = useState(true); // מצב להצגת הלאודר
 
   useEffect(() => {
-    // טיימר להעלמת הלאודר אחרי 2 שניות
     const timer = setTimeout(() => {
       setShowLoader(false); // מסתיר את הלאודר
-    }, 2500);
+    }, 3000);
 
     return () => clearTimeout(timer); // ניקוי הטיימר
   }, []);

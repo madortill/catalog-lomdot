@@ -5,7 +5,7 @@
     justify-content: center;
     height: 100vh;
     background-color: #fadde1;
-    animation: fadeOut 5s ease-in-out forwards; /* מפעיל את האנימציה */
+    animation: fadeOut 6s ease-in-out forwards; /* מפעיל את האנימציה */
   }
   
   .gif-load {
@@ -16,7 +16,7 @@
 
 
   .getting-started {
-    font-size: 2rem;
+    font-size: 2.5rem;
     color: rgb(243, 161, 161);
     font-weight: 700;
   }
