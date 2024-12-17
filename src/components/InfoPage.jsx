@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Css/InfoPage.css";
-
+import backButton from "../assets/back-button.png";
 export default function InformationPage({ image, name, year, link, content, onBack }) {
     return (
         <div className="infp-page">
@@ -14,7 +14,7 @@ export default function InformationPage({ image, name, year, link, content, onBa
                 לעבור ללומדה
               </a>
               <button onClick={onBack} className="back-button">
-                חזרה לכל הקלפים
+                <img src={backButton} alt="return" className="back-button" />
               </button>
             </div>
           </div>

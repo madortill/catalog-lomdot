@@ -19,15 +19,16 @@ const About = () => {
       </button>
       {isVisible && (
         <>
-          <div className="overlay" onClick={toggleVisibility}></div>
+          {/* ה-overlay לא סוגר את המסך אוטומטית */}
+          <div className="overlay"></div> 
           <div className="about-content">
-            <h1 className = "title-about">אודות</h1>
+            <h1 className="title-about">אודות</h1>
             {about_array.map((item, index) => (
               <div key={index}>
                 {index % 2 === 0 ? (
-                  <b className = "bold-text">{item}</b>
+                  <b className="bold-text">{item}</b>
                 ) : (
-                  <p className = "p-text">{item}</p>
+                  <p className="p-text">{item}</p>
                 )}
               </div>
             ))}

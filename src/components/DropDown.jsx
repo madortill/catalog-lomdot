@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import "../Css/DropDown.css";
 import filtersData from "../data/filterData.json";
 
@@ -8,7 +8,6 @@ const Dropdown = () => {
 
   const toggleSubMenu = (index) => {
     setOpenSubMenu(openSubMenu === index ? null : index); // פותח/סוגר את התפריט משנה
-    console.log(index);
   };
 
   const toggleVisibility = () => {
@@ -23,7 +22,7 @@ const Dropdown = () => {
 
   return (
     <div className="dropdown">
-      {isVisible && <div className="overlay" onClick={toggleVisibility}></div>}
+      {isVisible && <div className="overlay-drop" onClick={toggleVisibility}></div>}
       <button className="dropdown-btn" onClick={toggleVisibility}>
         סינון
       </button>
