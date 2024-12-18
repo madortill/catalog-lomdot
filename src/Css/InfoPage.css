@@ -29,7 +29,7 @@
   }
   
   .info-details {
-    padding: 20px;
+    padding: 12px;
   }
   
   .info-name {
@@ -62,7 +62,7 @@
   
   .back-button {
     position: absolute;
-    bottom: 2rem;
+    bottom: 4rem;
     right: 2rem; 
     width: 5rem; 
     height: 5rem; 
@@ -85,3 +85,7 @@
       height: 5rem;
     }
   }
+
+  /* .sign-bahad {
+    position: absolute;
+  } */

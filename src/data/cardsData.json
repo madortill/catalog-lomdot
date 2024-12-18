@@ -5,7 +5,10 @@
     "link": "https://example.com",
     "year": "2024",
     "content": "תיאור של לומדה גנרית",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "type": "generic",
+    "target": "web",
+    "sign" : "../assets/signs-bahad/signBahd10.png"
   },
   {
     "id": 2,
@@ -13,7 +16,9 @@
     "content": "תיאור של לומדה מותאמת",
     "link": "https://example.com",
     "year": "2024",
-    "image": "https://via.placeholder.com/150"
+    "image": "https://via.placeholder.com/150",
+    "type": "generic",
+    "target": "web"
   },
   {
     "link": "https://example.com/2",

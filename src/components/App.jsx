@@ -54,6 +54,7 @@ export default function App() {
               link={selectedCard.link}
               content={selectedCard.content}
               onBack={handleBackToAllCards}
+              sign={selectedCard.sign}
             />
           ) : (
             <AllCards searchValue={searchValue} onCardClick={handleCardClick} />

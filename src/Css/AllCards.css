@@ -5,7 +5,7 @@
     justify-content: center;
     gap: 20px;
     overflow-y: scroll; 
-    max-height: 600px;
+    max-height: 540px;
     margin-top: 1rem;
   }
   .none-card {
