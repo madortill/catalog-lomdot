@@ -23,9 +23,9 @@ const SearchButton = ({searchValue, setSearchValue}) => {
           value={searchValue}
           onChange={handleInputChange}
         />
-        <button className="search-button" onClick={handleSearch}>
+        {/* <button className="search-button" onClick={handleSearch}>
           <img src={searchIcon} alt="Search" className="search-icon" />
-        </button>
+        </button> */}
       </div>
     </div>
   );
